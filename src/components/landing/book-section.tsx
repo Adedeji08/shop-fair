@@ -3,6 +3,7 @@ import React from "react";
 export const BookCatalogue = () => {
   return (
     <>
+      {/* Featured Books */}
       <section className="max-w-7xl mx-auto px-6 mb-20">
         <h2 className="text-4xl font-bold mb-12">Featured Books</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -106,27 +107,67 @@ export const BookCatalogue = () => {
         <h2 className="text-4xl font-bold mb-12">New Arrivals</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
           <div className="cursor-pointer">
-            <div className="aspect-[3/4] bg-gradient-to-br from-blue-500 to-indigo-700 rounded-lg shadow-md hover:shadow-lg transition-shadow"></div>
+            <div className="aspect-[3/4] bg-gradient-to-br from-blue-500 to-indigo-700  w-[224px] rounded-lg shadow-md hover:shadow-lg transition-shadow flex items-center justify-center">
+              <div className="text-center bg-white/80 px-6 py-4 rounded-lg">
+                <div className="text-gray-600">Rediscover</div>
+                <div className="font-serif text-xl mt-1">
+                  The Last
+                  <br />
+                  Chronicle
+                </div>
+              </div>
+            </div>
             <h4 className="mt-4 font-medium text-lg">The Last Chronicle</h4>
             <p className="text-gray-600">by Amelia Harper</p>
           </div>
+
           <div className="cursor-pointer">
-            <div className="aspect-[3/4] bg-gradient-to-br from-teal-600 to-emerald-700 rounded-lg shadow-md hover:shadow-lg transition-shadow"></div>
-            <h4 className="mt-4 font-medium text-lg">Echoes of the Past</h4>
-            <p className="text-gray-600">by Charles Ashford</p>
+            <div className="aspect-[3/4] bg-gradient-to-br from-teal-600 to-emerald-700  w-[224px] rounded-lg shadow-md hover:shadow-lg transition-shadow flex items-center justify-center">
+              <div className="text-center bg-white/80 px-6 py-4 rounded-lg">
+                <div className="text-gray-600">Rediscover</div>
+                <div className="font-serif text-xl mt-1">
+                  Echoes of the
+                  <br /> Past
+                </div>
+              </div>
+            </div>
+            <h4 className="mt-4 font-medium text-lg">The Last Chronicle</h4>
+            <p className="text-gray-600">by Amelia Harper</p>
           </div>
+
           <div className="cursor-pointer">
-            <div className="aspect-[3/4] bg-gradient-to-br from-pink-300 to-rose-400 rounded-lg shadow-md hover:shadow-lg transition-shadow"></div>
-            <h4 className="mt-4 font-medium text-lg">Starlight Sonata</h4>
-            <p className="text-gray-600">by Sophie Bennett</p>
+            <div className="aspect-[3/4] bg-gradient-to-br from-pink-300 to-rose-400  w-[224px] rounded-lg shadow-md hover:shadow-lg transition-shadow flex items-center justify-center">
+              <div className="text-center bg-white/80 px-6 py-4 rounded-lg">
+                <div className="text-gray-600">Rediscover</div>
+                <div className="font-serif text-xl mt-1">Starlight Sonata</div>
+              </div>
+            </div>
+            <h4 className="mt-4 font-medium text-lg">The Last Chronicle</h4>
+            <p className="text-gray-600">by Amelia Harper</p>
           </div>
+
           <div className="cursor-pointer">
-            <div className="aspect-[3/4] bg-gradient-to-br from-yellow-200 to-amber-300 rounded-lg shadow-md hover:shadow-lg transition-shadow"></div>
-            <h4 className="mt-4 font-medium text-lg">The Silent Witness</h4>
+            <div className="aspect-[3/4] bg-gradient-to-br from-yellow-200 to-amber-300  w-[224px] rounded-lg shadow-md hover:shadow-lg transition-shadow flex items-center justify-center">
+              <div className="text-center bg-white/80 px-6 py-4 rounded-lg">
+                <div className="text-gray-600">Rediscover</div>
+                <div className="font-serif text-xl mt-1">
+                  The Silent <br/> Witness
+                </div>
+              </div>
+            </div>
+            <h4 className="mt-4 font-medium text-lg">
+              The Silent Witness
+            </h4>
             <p className="text-gray-600">by Daniel Carter</p>
           </div>
+
           <div className="cursor-pointer">
-            <div className="aspect-[3/4] bg-gradient-to-br from-emerald-500 to-green-600 rounded-lg shadow-md hover:shadow-lg transition-shadow"></div>
+            <div className="aspect-[3/4] bg-gradient-to-br from-emerald-500 to-green-600  w-[224px] rounded-lg shadow-md hover:shadow-lg transition-shadow flex items-center justify-center">
+              <div className="text-center bg-white/80 px-6 py-4 rounded-lg">
+                <div className="text-gray-600">Rediscover</div>
+                <div className="font-serif text-xl mt-1">Crimson Tide</div>
+              </div>
+            </div>
             <h4 className="mt-4 font-medium text-lg">Crimson Tide</h4>
             <p className="text-gray-600">by Olivia Evans</p>
           </div>
