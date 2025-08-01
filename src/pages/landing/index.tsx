@@ -1,9 +1,5 @@
 import React, { useState } from "react";
 import Header from "../../components/landing/header";
-import HeroSection from "../../components/landing/hero-section";
-import Footer from "../../components/landing/footer";
-import { BookCatalogue } from "../../components/landing/book-section";
-import { AboutUs } from "../../components/landing/about-us";
 
 const BookHavenApp: React.FC = () => {
   const [isDarkMode, setIsDarkMode] = useState(true);
