@@ -5,10 +5,6 @@ const BookHavenApp: React.FC = () => {
   const [isDarkMode, setIsDarkMode] = useState(true);
   const [cartCount, setCartCount] = useState(0);
 
-  const addToCart = () => {
-    setCartCount((prev) => prev + 1);
-  };
-
   const toggleTheme = () => {
     setIsDarkMode(!isDarkMode);
   };
