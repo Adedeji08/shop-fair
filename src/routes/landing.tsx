@@ -1,5 +1,6 @@
 
 import LandingPage from "../pages/landing";
+import BookStore from "../pages/landing/bookstore";
 import AuthGuard from "../utils/route-guard/auth-guard";
 
 
@@ -11,7 +12,7 @@ async function checkIfUserIsLoggedIn() {
 
 const MainRoutes = {
   path: "/",
-  element: <AuthGuard><LandingPage /></AuthGuard>,
+  element: <AuthGuard><BookStore /></AuthGuard>,
   loader: async () => {
     const isLoggedIn = await checkIfUserIsLoggedIn();
     return isLoggedIn ? { pathname: "/dashboard" } : null;

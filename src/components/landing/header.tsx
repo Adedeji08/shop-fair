@@ -26,7 +26,7 @@ export const Header: React.FC<BookCardProps> = ({
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center space-x-2">
               <BookOpen className="h-8 w-8 text-blue-600" />
-              <span className="text-xl font-bold">Book Haven</span>
+              <span className="text-xl font-bold">Canndle </span>
             </div>
 
             <nav className="hidden md:flex space-x-8">

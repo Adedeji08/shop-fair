@@ -29,13 +29,13 @@ const BookHavenApp: React.FC = () => {
         toggleTheme={toggleTheme}
       />
 
-      <HeroSection />
+      {/* <HeroSection /> */}
       {/* Featured Books */}
 
-      <BookCatalogue isDarkMode={isDarkMode} addToCart={addToCart} />
+      {/* <BookCatalogue isDarkMode={isDarkMode} addToCart={addToCart} /> */}
 
-      <AboutUs isDarkMode={isDarkMode} />
-      <Footer isDarkMode={isDarkMode} />
+      {/* <AboutUs isDarkMode={isDarkMode} /> */}
+      {/* <Footer isDarkMode={isDarkMode} /> */}
     </div>
   );
 };
