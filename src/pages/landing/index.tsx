@@ -35,8 +35,6 @@ const BookHavenApp: React.FC = () => {
       <BookCatalogue isDarkMode={isDarkMode} addToCart={addToCart} />
 
       <AboutUs isDarkMode={isDarkMode} />
-
-      {/* Footer */}
       <Footer isDarkMode={isDarkMode} />
     </div>
   );
