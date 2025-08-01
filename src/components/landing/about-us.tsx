@@ -11,7 +11,7 @@ export const AboutUs: React.FC<AboutProp> = ({
       <div className="max-w-7xl mx-auto px-6">
         <h2 className="text-4xl font-bold mb-8">About Us</h2>
         <p className="text-gray-700 text-lg leading-relaxed mb-10 max-w-5xl">
-          Book Haven is a family-owned bookstore dedicated to providing a
+          Canndle is a family-owned bookstore dedicated to providing a
           curated selection of books for readers of all ages. Our passion for
           literature drives us to seek out unique and compelling stories, from
           bestsellers to hidden gems. We believe in the power of books to
@@ -22,7 +22,7 @@ export const AboutUs: React.FC<AboutProp> = ({
         <div className="mb-8">
           <h3 className="text-2xl font-bold mb-4">Contact</h3>
           <p className="text-gray-700 text-lg mb-8">
-            Email: support@bookhaven.com Phone: (555) 123-4567 Address: 123 Main
+            Email: support@bookhcanddle.com Phone: (555) 123-4567 Address: 123 Main
             Street, Anytown, USA
           </p>
 
