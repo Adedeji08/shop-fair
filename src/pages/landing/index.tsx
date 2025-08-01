@@ -15,11 +15,11 @@ const BookHavenApp: React.FC = () => {
         isDarkMode ? "bg-gray-900 text-white" : "bg-gray-50 text-gray-900"
       }`}
     >
-      <Header
+      {/* <Header
         isDarkMode={isDarkMode}
         cartCount={cartCount}
         toggleTheme={toggleTheme}
-      />
+      /> */}
 
       {/* <HeroSection /> */}
       {/* Featured Books */}

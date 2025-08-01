@@ -55,11 +55,7 @@ const BookStore = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
-      <Header
-        isDarkMode={isDarkMode}
-        cartCount={cartCount}
-        toggleTheme={toggleTheme}
-      />
+      <Header  />
 
       <HeroSection setShowCart={setShowCart} />
       {/* Featured Books */}
